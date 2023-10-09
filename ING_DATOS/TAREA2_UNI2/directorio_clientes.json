@@ -1,0 +1,26 @@
+{
+    "01234567L": {
+        "nombre": "Luis Gonz\u00e1lez",
+        "email": "luisgonzalez@mail.com",
+        "tel\u00e9fono": "656343576",
+        "descuento": "12.5"
+    },
+    "71476342J": {
+        "nombre": "Macarena Ram\u00edrez",
+        "email": "macarena@mail.com",
+        "tel\u00e9fono": "692839321",
+        "descuento": "8"
+    },
+    "63823376M": {
+        "nombre": "Juan Jos\u00e9 Mart\u00ednez",
+        "email": "juanjo@mail.com",
+        "tel\u00e9fono": "664888233",
+        "descuento": "5.2"
+    },
+    "98376547F": {
+        "nombre": "Carmen S\u00e1nchez",
+        "email": "carmen@mail.com",
+        "tel\u00e9fono": "667677855",
+        "descuento": "15.7"
+    }
+}

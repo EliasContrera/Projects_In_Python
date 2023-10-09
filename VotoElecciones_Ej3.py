@@ -1,12 +1,12 @@
-from itertools import count
 
 
-votos = int(input())
+
+votos = int(input("Ingrese la cantidad de votos que desea ingresar: "))
 postulante = [] # Creo la lista vacia
 
 if votos >= 1 and votos <= 100:
     for i in range(votos):
-        nuevo_postulante = input()  # Cada elemento es ingresado por teclado
+        nuevo_postulante = input("Ingrese su voto: ")  # Cada elemento es ingresado por teclado
         postulante.append(nuevo_postulante) # Se agrega el elemento a la lista
             
 else:
@@ -22,5 +22,4 @@ for y in range(len(postulante)):
     else:
         aux += 1 #Incremento el valor de aux para comparar con el siguiente elemento
 
-
-print(max(set(postulante), key = postulante.count)) #Imprimo por pantalla el elemento que se repitio mas veces
+print("El ganador con mas votos es: ", max(set(postulante), key = postulante.count), ) #Imprimo por pantalla el elemento que se repitio mas veces
